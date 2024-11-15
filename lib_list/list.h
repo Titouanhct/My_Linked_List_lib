@@ -25,4 +25,7 @@ void pushback(list_t *list, void *data);
 void pushfront(list_t *list, void *data);
 void popfront(list_t *list);
 void popback(list_t *list);
+void destroy_node(list_t *list, node_t *node);
+int my_apply_on_nodes(list_t *list, void *(*f)(void *));
+int my_apply_on_matching_nodes(list_t *list, void *(*f)(), void const *data_ref, int (*cmp)());
 #endif /* !LIST_H_ */

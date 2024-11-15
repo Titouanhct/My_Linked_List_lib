@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2024
 ** create_list
 ** File description:
-** create_list
+** Function that creates the empty linked list
 */
 
 #include "list.h"
