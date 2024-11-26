@@ -21,7 +21,7 @@ void pushback(list_t *list, void *data)
     node_t *to_add = malloc(sizeof(node_t));
 
     if (!list || !data)
-        return ;
+        return;
     to_add = fill_node(to_add, data, list->tail);
     if (list->tail)
         list->tail->next = to_add;

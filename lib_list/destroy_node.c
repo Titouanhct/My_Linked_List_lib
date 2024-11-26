@@ -7,12 +7,11 @@
 
 #include "list.h"
 #include <stdlib.h>
- 
 
 void destroy_node(list_t *list, node_t *node)
 {
     if (!list)
-        return ;
+        return;
     if (node) {
         if (node->prev)
             node->prev->next = node->next;

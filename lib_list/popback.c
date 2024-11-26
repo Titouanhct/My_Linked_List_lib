@@ -11,8 +11,9 @@
 void popback(list_t *list)
 {
     node_t *last;
+
     if (!list || !list->tail)
-        return ;
+        return;
     last = list->tail;
     if (list->head == list->tail){
         list->head = NULL;

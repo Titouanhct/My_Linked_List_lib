@@ -11,8 +11,9 @@
 void popfront(list_t *list)
 {
     node_t *first;
+
     if (!list || !list->head)
-        return ;
+        return;
     first = list->head;
     if (list->head == list->tail) {
         list->head = NULL;
