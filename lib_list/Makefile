@@ -15,6 +15,7 @@ SRC += popfront.c
 SRC += destroy_node.c
 SRC += my_apply_on_matching_nodes.c
 SRC += my_apply_on_nodes.c
+SRC += add_node_to_list.c
 
 OBJ = $(SRC:.c=.o)
 
