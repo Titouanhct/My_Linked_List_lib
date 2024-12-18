@@ -29,4 +29,6 @@ void destroy_node(list_t *list, node_t *node);
 int my_apply_on_nodes(list_t *list, void *(*f)(void *));
 int my_apply_on_matching_nodes(list_t *list, void *(*f)(),
     void const *data_ref, int (*cmp)());
+void add_node_to_list(list_t *list, node_t *node);
+
 #endif /* !LIST_H_ */
